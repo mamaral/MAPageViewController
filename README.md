@@ -65,7 +65,7 @@ self.window.rootViewController = [MAPageViewController alloc] initWithViewContro
 ```
 
 
-![demo](Screenshots/page_demo.gif)
+![demo](screenshots/page_demo.gif)
 
 
 License
