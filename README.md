@@ -60,7 +60,7 @@ UIViewController *yellowVC = [UIViewController new];
 yellowVC.view.backgroundColor = [UIColor yellowColor];
 
 NSArray *viewControllers = @[redVC, blueVC, greenVC, orangeVC, brownVC, yellowVC];
-self.window.rootViewController = [MAPageViewController alloc] initWithViewControllers:viewControllers];
+self.window.rootViewController = [[MAPageViewController alloc] initWithViewControllers:viewControllers];
 
 ```
 
